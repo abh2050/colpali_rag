@@ -13,6 +13,7 @@ This Streamlit application implements a **Multimodal Retrieval-Augmented Generat
 - **Streamlit-Based UI**: Interactive web interface with a sidebar for customization.
 
 ## ColPali: Efficient Document Retrieval with Vision Language Models
+https://colab.research.google.com/github/abh2050/colpali_rag/blob/main/colpali.ipynb
 
 ### Abstract:
 Documents are visually rich structures that convey information through text, as well as tables, figures, page layouts, or fonts. While modern document retrieval systems exhibit strong performance on query-to-text matching, they struggle to exploit visual cues efficiently, hindering their performance on practical document retrieval applications such as Retrieval Augmented Generation. To benchmark current systems on visually rich document retrieval, we introduce the Visual Document Retrieval Benchmark ViDoRe, composed of various page-level retrieving tasks spanning multiple domains, languages, and settings. The inherent shortcomings of modern systems motivate the introduction of a new retrieval model architecture, ColPali, which leverages the document understanding capabilities of recent Vision Language Models to produce high-quality contextualized embeddings solely from images of document pages. Combined with a late interaction matching mechanism, ColPali largely outperforms modern document retrieval pipelines while being drastically faster and end-to-end trainable.
